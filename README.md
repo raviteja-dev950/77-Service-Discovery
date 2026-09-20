@@ -554,49 +554,49 @@ After 77 (with Eureka): GatewayConfig uri("lb://75-ORDER-SERVICE") – Discovery
 
 ### 1. Eureka Fresh – Browser – localhost:8761 – No instances available – 00:00 – EMERGENCY! – Start
 
-[demo1](screenshots/demo1.png)
+![demo1](screenshots/demo1.png)
 
 ---
 
 ### 2. Eureka 1 UP – Browser – localhost:8761 – 1 UP – 74-PRODUCT-SERVICE:8082 – 00:02 – First service
 
-[demo2](screenshots/demo2.png)
+![demo2](screenshots/demo2.png)
 
 ---
 
 ### 3. Eureka 2 UP – Browser – localhost:8761 – 2 UP – 74 + 75-ORDER-SERVICE:8086 – 00:05 – Order fixed ORA-00942
 
-[demo3](screenshots/demo3.png)
+![demo3](screenshots/demo3.png)
 
 ---
 
 ### 4. Eureka 3 UP – Browser – localhost:8761 – 3 UP – 74 + 75 + 76-API-GATEWAY:8084 – 00:09 – All UP – Complete!
 
-[demo4](screenshots/demo4.png)
+![demo4](screenshots/demo4.png)
 
 ---
 
 ### 5. Eureka Stable – Browser – localhost:8761 – 3 UP stable – 00:21 – Renews 6 – 6 Renews – Final stable – 21 min uptime
 
-[demo5](screenshots/demo5.png)
+![demo5](screenshots/demo5.png)
 
 ---
 
 ### 6. Products via Gateway – Browser – localhost:8084/api/products – Via Gateway lb://74 – iPhone 15 JSON – Main product proof
 
-[demo6](screenshots/demo6.png)
+![demo6](screenshots/demo6.png)
 
 ---
 
 ### 7. Orders via Gateway – Browser – localhost:8084/api/orders – Via Gateway lb://75 – [] – Fixed 500 -> 200 OK – Main order proof!
 
-[demo7](screenshots/demo7.png)
+![demo7](screenshots/demo7.png)
 
 ---
 
 ### 8. Orders Direct – Browser – localhost:8086/api/orders – Direct – [] – Same as via Gateway – Compare demo7 – 500 fixed!
 
-[demo8](screenshots/demo8.png)
+![demo8](screenshots/demo8.png)
 
 ---
 
